@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.resumen{
+    border:solid 1px black;
+    margin-top:10px;
+}
+
+.img {
+ 
+
+   
+  
+    
+}
+.img > img{
+    width: 200px;
+    height: 100px;
+    
+    vertical-align: top;
+    display: inline-block;
+    
+}
+.texto {
+    width:40%;
+    margin-left:20px;
+    vertical-align: top;
+    display: inline-block;
+}

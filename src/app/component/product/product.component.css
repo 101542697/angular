@@ -1,0 +1,62 @@
+.container-fluid h1{
+    color: green;
+    font-size: 44px;
+}
+.container-fluid span{
+    font-weight: bold;
+}
+
+
+.producto{
+    position: relative;
+    height:300px;
+    box-shadow: 0 0 5 lightgray;
+    padding:10px;
+    
+
+}
+.producto > img{
+    width: 30%;
+    text-align: center;
+    margin-bottom:10px;
+    margin-left:25%;
+    
+   
+}
+.producto h5{
+    font-size: 12px;
+    color:coral;
+}
+.producto h3{
+    font-size: 17px;
+    font-style: bold;
+    
+}
+.producto h2{
+    font-size: 20px;
+
+}
+.producto> button{
+    border-radius: 5px;
+    display: none;
+    background-color:crimson;
+    color: white;
+    border:none;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top:30%;
+    left:30%;
+  
+}
+.producto:hover {
+    
+    
+   
+}
+.producto:hover button{
+    display: block;
+    box-shadow: 0 0 6 lightblue;
+   
+
+}
